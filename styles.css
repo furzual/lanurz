@@ -1,0 +1,105 @@
+body{
+    background-image: url("images/cherry\ background.png");
+    margin:0px;
+}
+
+h1{
+    text-align: center;
+    color:black;
+    font-size: 60px;
+}
+
+.header{
+    margin: 20px 400px 0;
+    font-size: 0;
+}
+
+.header  > * {
+    display: inline-block;
+    font-size: 16px;
+    vertical-align:middle;
+    height: 100%;
+    line-height: 45px;
+}
+
+.header li{
+    display: inline;
+    margin: 0 12px;
+    color: gray;
+}
+
+.header ul{
+    padding: 0;
+}
+
+.image_logo{
+    width: 40%;
+}
+
+.logo_lanurz{
+    width: 300px;
+}
+
+.home_search{
+    text-align: right;
+}
+
+.search_engine{
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: gray;
+    opacity: 0.8;
+}
+
+.search_button{
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: gray;
+    background-color: white;
+    opacity: 0.8;
+}
+
+.navbar{
+    width: 60%;
+    text-align: right;
+    color:purple;
+    font-weight: 500;
+    height: 160px;
+}
+
+section li{
+    color: gray;
+}
+
+.first_image{
+    width:80%;
+}
+
+.trending{
+    width: 100%;
+    text-align: center;
+}
+
+.main{
+    text-align: center;
+    width: 100%;
+}
+
+.main  > * {
+    display: inline-block;
+    font-size: 16px;
+    vertical-align:middle;
+    height: 100%;
+    line-height: 45px;
+}
+
+.main ul{
+    padding: 0;
+}
+
+.main li{
+    display: inline;
+    margin: 0 40px;
+}
