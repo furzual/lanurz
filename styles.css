@@ -5,12 +5,12 @@ body{
 
 h1{
     text-align: center;
-    color:black;
+    color:#ec1573;
     font-size: 60px;
 }
 
 .header{
-    margin: 20px 400px 0;
+    margin: 30px 200px 0;
     font-size: 0;
 }
 
@@ -56,9 +56,11 @@ h1{
     text-align: center;
     padding: 10px;
     border-radius: 5px;
-    border-color: gray;
-    background-color: white;
+    border-color: #ec1573;
+    background-color: #ec1573;
+    color: white;
     opacity: 0.8;
+    margin-left: -5px;
 }
 
 .navbar{
@@ -73,9 +75,17 @@ section li{
     color: gray;
 }
 
-.first_image{
-    width:80%;
+.carousel_images{
+    width:100%;
+    display: flex;
+    justify-content: center;
 }
+
+.carousel_images .carousel-inner > .carousel-item > img {
+    width:100%;
+    height:auto;
+  }
+
 
 .trending{
     width: 100%;
