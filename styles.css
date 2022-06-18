@@ -140,9 +140,23 @@ section li{
 }
 
 footer{
-    padding: 50px;
     background-color: gray;
-    color: white;
+    color: black;
     display: grid;
-    grid-template-columns: 3;
+    grid-template: repeat(1, 1fr) / repeat(4, 1fr);
+    padding: 5% 10%;
+}
+
+footer .social_network img{
+    width: 30px;
+}
+
+footer .social_network .social_icons{
+    display: grid;
+    grid-template: repeat(1, 1fr) / repeat(3, 1fr);
+    padding: 5% 15%;
+}
+
+footer .social_network img:hover{
+    fill: red;
 }
