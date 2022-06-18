@@ -1,7 +1,7 @@
 body{
     background-image: url("images/cherry\ background.png");
     margin:0px;
-    font-family: 'Inconsolata', monospace;
+    font-family: 'Roboto Slab', serif;
 }
 
 h1{
@@ -72,6 +72,11 @@ h1{
     height: 160px;
 }
 
+.banner .carousel .carousel-inner .carousel-item img{
+    object-fit: fill;
+    height: 700px;
+}
+
 section li{
     color: black;
 }
@@ -84,18 +89,23 @@ section li{
     padding: 50px;
 }
 
-.carousel-inner img{
-    height: 500px;
-}
-
 .cards_content{
     align-items: center;
 }
 
-.card .carousel img{
+.card .carousel .carousel-inner .carousel-item img{
     width: 400px;
-    height:400px;
+    height:300px;
+    object-fit: cover;
 }
+
+.card-body{
+    height:200px;
+}
+
+.card article{
+    max-height: 800px;
+} 
 
 .trending{
     width: 100%;
@@ -128,3 +138,4 @@ section li{
     display: inline;
     margin: 0 40px;
 }
+
