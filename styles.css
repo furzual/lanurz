@@ -2,6 +2,7 @@ body{
     background-image: url("images/cherry\ background.png");
     margin:0px;
     font-family: 'Roboto Slab', serif;
+    font-size: 16px;
 }
 
 h1{
@@ -137,14 +138,21 @@ section li{
 .main li{
     display: inline;
     margin: 0 40px;
+    font-size: 16px;
+    font-weight:300;
 }
 
 footer{
-    background-color: gray;
+    background-color: rgb(182, 177, 177);
     color: black;
     display: grid;
     grid-template: repeat(1, 1fr) / repeat(4, 1fr);
     padding: 5% 10%;
+    font-size: 16px;
+}
+
+footer li{
+    list-style:none;
 }
 
 footer .social_network img{
@@ -155,6 +163,33 @@ footer .social_network .social_icons{
     display: grid;
     grid-template: repeat(1, 1fr) / repeat(3, 1fr);
     padding: 5% 15%;
+}
+
+.subscribe_form{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+    border-radius: 30px;
+    border-color: black;
+    opacity: 0.8;
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+.subscribe_btn{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+    border-radius: 30px;
+    border-color: black;
+    background-color: black;
+    color: rgb(182, 177, 177);
+    opacity: 0.8;
+    margin: 20px auto;
+    width: 100%;
 }
 
 footer .social_network img:hover{
