@@ -11,6 +11,7 @@
     </head>
     <body>
         <header class="header">
+            <!--
             <a href="#" class="image_logo navbar-brand">
                 <img class="logo_lanurz" src="images/lanurz_logo.png" alt="logo">
             </a>
@@ -23,9 +24,46 @@
                     <input class="search_engine" type="text" placeholder="Busca tu producto">
                     <button class="search_button">&#10149;</button>
                 </form>
+            </nav>-->
+            <nav class="navbar navbar-expand-lg">
+              <div class="container-fluid all_bar">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                  <a class="navbar-brand" href="#"><img class="logo_lanurz" src="images/lanurz_logo.png" alt="logo"></a>
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0 main">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Lista de productos</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Galería de fotos</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Agenda tu cita</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Mercado Libre</a>
+                    </li>
+                  </ul>
+                  <article>
+                    <ul>
+                      <li>Acerca de nosotros</li>
+                      <li>Contacto</li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                      <input class="form-control me-2 search_engine" type="text" placeholder="Busca tu producto">
+                      <button class="btn btn-outline-success search_button">&#10149;</button>
+                    </form>
+                  </article>
+                </div>
+              </div>
             </nav>
         </header>
-        <section class="main">
+        <!--<section class="main">
             <ul>
                 <li>Lista de productos</li>
                 <li>Servicios</li>
@@ -33,7 +71,7 @@
                 <li>Agenda tu cita</li>
                 <li>Mercado Libre</li>
             </ul>
-        </section>
+        </section>-->
         <section class="banner">
           <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
             <div class="carousel-inner">
@@ -63,9 +101,9 @@
         <section class="trending">
             <h1>Uñas por temporada</h1>
             <div class="container">
-              <div class="row col-12 cards_content mx-auto">
+              <div class="row col-12 cards_content">
                 <article class="col-md-4">
-                  <div class="card mx-auto" style="width: 18rem;">
+                  <div class="card" style="width: 18rem;">
                     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
                       <div class="carousel-indicators">
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -111,7 +149,7 @@
                   </div>
                 </article>
                 <article class="col-md-4 mx-auto">
-                  <div class="card mx-auto" style="width: 18rem;">
+                  <div class="card" style="width: 18rem;">
                     <div id="carouselExampleIndicators2" class="carousel slide" data-bs-ride="true">
                       <div class="carousel-indicators">
                         <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -157,7 +195,7 @@
                   </div>
                 </article>
                 <article class="col-md-4">
-                  <div class="card mx-auto" style="width: 18rem;">
+                  <div class="card" style="width: 18rem;">
                     <div id="carouselExampleIndicators3" class="carousel slide" data-bs-ride="true">
                       <div class="carousel-indicators">
                         <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -198,7 +236,7 @@
                     </div>
                     <div class="card-body">
                       <h3>Ediciones especiales</h3>
-                      <p class="card-text">Eres fan de una marca, película o concepto. No te preocupes, nosotros te entendemos</p>
+                      <p class="card-text">Eres fan de una marca o concepto. No te preocupes, nosotros te entendemos</p>
                     </div>
                   </div>
                 </article>
@@ -231,12 +269,12 @@
               <img src="icons/pinterest-brands.svg" alt="pinterest">
             </div>
             <div>
-              <h5>Regístrate</h5>
-              <p>Recibe todas las notificaciones en tu correo electrónico:</p>
+              <h5>Boletín</h5>
+              <p>Recibe todas las notificaciones en tu correo:</p>
               <form>
-                <input type="email" class="subscribe_form" placeholder="Ingresa tu correo"/>
-                <button type="submit" class="subscribe_btn">
-                    Enviar
+                <input type="email" />
+                <button type="submit">
+                    Suscríbete &rarr;
                 </button>
               </form>
             </div>

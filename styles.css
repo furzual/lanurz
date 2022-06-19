@@ -2,7 +2,6 @@ body{
     background-image: url("images/cherry\ background.png");
     margin:0px;
     font-family: 'Roboto Slab', serif;
-    font-size: 16px;
 }
 
 h1{
@@ -12,8 +11,9 @@ h1{
 }
 
 .header{
-    margin: 30px 200px 0;
+    margin: 30px 80px 80px 0;
     font-size: 0;
+    width: 100%;
 }
 
 .header  > * {
@@ -33,6 +33,7 @@ h1{
 .header ul{
     padding: 0;
 }
+
 
 .image_logo{
     width: 40%;
@@ -66,16 +67,23 @@ h1{
 }
 
 .navbar{
-    width: 60%;
-    text-align: right;
+    width: 100%;
     color:purple;
     font-weight: 500;
     height: 160px;
+    margin: 0 0 0;
+}
+
+.all_bar{
+    width: 80%;
+    background-color: transparent;
+    margin-top: 30px auto 100px;
 }
 
 .banner .carousel .carousel-inner .carousel-item img{
     object-fit: fill;
     height: 700px;
+    margin-top: 40px;
 }
 
 section li{
@@ -106,7 +114,7 @@ section li{
 
 .card article{
     max-height: 800px;
-} 
+}
 
 .trending{
     width: 100%;
@@ -120,7 +128,8 @@ section li{
 
 .main{
     text-align: center;
-    width: 100%;
+    width: 55%;
+    margin-top: 200px;
 }
 
 .main  > * {
@@ -137,22 +146,14 @@ section li{
 
 .main li{
     display: inline;
-    margin: 0 40px;
-    font-size: 16px;
-    font-weight:300;
 }
 
 footer{
-    background-color: rgb(182, 177, 177);
+    background-color: gray;
     color: black;
     display: grid;
     grid-template: repeat(1, 1fr) / repeat(4, 1fr);
     padding: 5% 10%;
-    font-size: 16px;
-}
-
-footer li{
-    list-style:none;
 }
 
 footer .social_network img{
@@ -163,71 +164,4 @@ footer .social_network .social_icons{
     display: grid;
     grid-template: repeat(1, 1fr) / repeat(3, 1fr);
     padding: 5% 15%;
-}
-
-.subscribe_form{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    padding: 15px;
-    border-radius: 30px;
-    border-color: black;
-    opacity: 0.8;
-    margin: 0 auto;
-    width: 100%;
-}
-
-
-.subscribe_btn{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    padding: 15px;
-    border-radius: 30px;
-    border-color: black;
-    background-color: black;
-    color: rgb(182, 177, 177);
-    opacity: 0.8;
-    margin: 20px auto;
-    width: 100%;
-}
-
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-    .banner .carousel .carousel-inner .carousel-item img{
-        object-fit: fill;
-        height: 250px;
-    }
-    footer{
-        background-color: rgb(182, 177, 177);
-        color: black;
-        display: grid;
-        grid-template: repeat(1, 1fr) / repeat(1, 1fr);
-        padding: 5% 10%;
-        font-size: 16px;
-        gap:5px;
-    }
-    .cards_content{
-        gap: 50px;
-    }
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 601px) and (max-width: 768px) {
-    .banner .carousel .carousel-inner .carousel-item img{
-        object-fit: fill;
-        height: 400px;
-    }
-    footer{
-        background-color: rgb(182, 177, 177);
-        color: black;
-        display: grid;
-        grid-template: repeat(1, 1fr) / repeat(1, 1fr);
-        padding: 5% 10%;
-        font-size: 16px;
-        gap:5px;
-    }
-    .cards_content{
-        gap: 50px;
-    }
 }
