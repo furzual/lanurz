@@ -198,6 +198,18 @@ footer .social_network .social_icons{
         object-fit: fill;
         height: 250px;
     }
+    footer{
+        background-color: rgb(182, 177, 177);
+        color: black;
+        display: grid;
+        grid-template: repeat(1, 1fr) / repeat(1, 1fr);
+        padding: 5% 10%;
+        font-size: 16px;
+        gap:5px;
+    }
+    .cards_content{
+        gap: 50px;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -205,5 +217,17 @@ footer .social_network .social_icons{
     .banner .carousel .carousel-inner .carousel-item img{
         object-fit: fill;
         height: 400px;
+    }
+    footer{
+        background-color: rgb(182, 177, 177);
+        color: black;
+        display: grid;
+        grid-template: repeat(1, 1fr) / repeat(1, 1fr);
+        padding: 5% 10%;
+        font-size: 16px;
+        gap:5px;
+    }
+    .cards_content{
+        gap: 50px;
     }
 }
