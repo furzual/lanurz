@@ -156,6 +156,10 @@ footer{
     padding: 5% 10%;
 }
 
+footer li{
+    list-style: none;
+}
+
 footer .social_network img{
     width: 30px;
 }
@@ -164,4 +168,71 @@ footer .social_network .social_icons{
     display: grid;
     grid-template: repeat(1, 1fr) / repeat(3, 1fr);
     padding: 5% 15%;
+}
+
+.subscribe_form{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+    border-radius: 30px;
+    border-color: black;
+    opacity: 0.8;
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+.subscribe_btn{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+    border-radius: 30px;
+    border-color: black;
+    background-color: black;
+    color: rgb(182, 177, 177);
+    opacity: 0.8;
+    margin: 20px auto;
+    width: 100%;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .banner .carousel .carousel-inner .carousel-item img{
+        object-fit: fill;
+        height: 250px;
+    }
+    footer{
+        background-color: rgb(182, 177, 177);
+        color: black;
+        display: grid;
+        grid-template: repeat(1, 1fr) / repeat(1, 1fr);
+        padding: 5% 10%;
+        font-size: 16px;
+        gap:5px;
+    }
+    .cards_content{
+        gap: 50px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    .banner .carousel .carousel-inner .carousel-item img{
+        object-fit: fill;
+        height: 400px;
+    }
+    footer{
+        background-color: rgb(182, 177, 177);
+        color: black;
+        display: grid;
+        grid-template: repeat(1, 1fr) / repeat(1, 1fr);
+        padding: 5% 10%;
+        font-size: 16px;
+        gap:5px;
+    }
+    .cards_content{
+        gap: 50px;
+    }
 }
