@@ -192,6 +192,18 @@ footer .social_network .social_icons{
     width: 100%;
 }
 
-footer .social_network img:hover{
-    fill: red;
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .banner .carousel .carousel-inner .carousel-item img{
+        object-fit: fill;
+        height: 250px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    .banner .carousel .carousel-inner .carousel-item img{
+        object-fit: fill;
+        height: 400px;
+    }
 }
