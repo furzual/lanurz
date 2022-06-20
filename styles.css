@@ -145,6 +145,10 @@ section li{
     z-index: 10;
 }
 
+.navbar-collapse {
+    background-color: #fffbf7;
+}
+
 .main  > * {
     display: inline-block;
     font-size: 16px;
