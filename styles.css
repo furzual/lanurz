@@ -63,7 +63,7 @@ h1{
     background-color: #ec1573;
     color: white;
     opacity: 0.8;
-    margin-left: -5px;
+    margin-left: -8px;
 }
 
 .navbar{
@@ -214,8 +214,26 @@ footer .social_network .social_icons{
     width: 100%;
 }
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+
+@media only screen and (max-width: 425px) {
+    .logo_lanurz{
+        width: 200px;
+        display: flex;
+        justify-content: center;
+    }
+    .search_engine{
+        width:40%;
+    }
+
+    .header ul{
+        text-align: center;
+    }
+
+    .d-flex{
+        display: flex;
+        justify-content: center;
+    }
+
     .banner .carousel .carousel-inner .carousel-item img{
         object-fit: fill;
         height: 250px;
@@ -234,8 +252,30 @@ footer .social_network .social_icons{
     }
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 601px) and (max-width: 768px) {
+@media only screen and (min-width: 425px) and (max-width: 768px){
+    .logo_lanurz{
+        width: 200px;
+    }
+
+    .d-flex{
+        display: flex;
+        justify-content: center;
+    }
+
+    .search_engine{
+        width: 50%;
+    }
+
+    .header ul{
+        text-align: center;
+    }
+
+    .navbar-brand{
+        display: flex;
+        justify-content: center;
+        margin: 0 0;
+    }
+
     .banner .carousel .carousel-inner .carousel-item img{
         object-fit: fill;
         height: 400px;
