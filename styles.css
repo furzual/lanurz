@@ -234,9 +234,18 @@ footer .social_network .social_icons{
         justify-content: center;
     }
 
+    .navbar{
+        margin-bottom: -40px;
+    }
+
+    .navbar-collapse{
+        padding-bottom: 30px;
+    }
+
     .banner .carousel .carousel-inner .carousel-item img{
         object-fit: fill;
         height: 250px;
+        margin-top: 0;
     }
     footer{
         background-color: rgb(182, 177, 177);
@@ -257,17 +266,25 @@ footer .social_network .social_icons{
         width: 200px;
     }
 
+    .header ul{
+        text-align: center;
+    }
+
     .d-flex{
         display: flex;
         justify-content: center;
     }
 
-    .search_engine{
-        width: 50%;
+    .navbar{
+        margin-bottom: -40px;
     }
 
-    .header ul{
-        text-align: center;
+    .navbar-collapse{
+        padding-bottom: 30px;
+    }
+
+    .search_engine{
+        width: 50%;
     }
 
     .navbar-brand{
@@ -279,6 +296,58 @@ footer .social_network .social_icons{
     .banner .carousel .carousel-inner .carousel-item img{
         object-fit: fill;
         height: 400px;
+        margin-top: 0;
+    }
+    footer{
+        background-color: rgb(182, 177, 177);
+        color: black;
+        display: grid;
+        grid-template: repeat(1, 1fr) / repeat(1, 1fr);
+        padding: 5% 10%;
+        font-size: 16px;
+        gap:5px;
+    }
+    .cards_content{
+        gap: 50px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px){
+    .logo_lanurz{
+        width: 200px;
+    }
+
+    .header ul{
+        text-align: center;
+    }
+
+    .d-flex{
+        display: flex;
+        justify-content: center;
+    }
+
+    .navbar{
+        margin-bottom: -40px;
+    }
+
+    .navbar-collapse{
+        padding-bottom: 30px;
+    }
+
+    .search_engine{
+        width: 50%;
+    }
+
+    .navbar-brand{
+        display: flex;
+        justify-content: center;
+        margin: 0 0;
+    }
+
+    .banner .carousel .carousel-inner .carousel-item img{
+        object-fit: fill;
+        height: 400px;
+        margin-top: 0;
     }
     footer{
         background-color: rgb(182, 177, 177);
