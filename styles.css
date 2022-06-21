@@ -264,6 +264,8 @@ footer .social_network .social_icons{
 @media only screen and (min-width: 425px) and (max-width: 768px){
     .logo_lanurz{
         width: 200px;
+        display: flex;
+        justify-content: center;
     }
 
     .header ul{
@@ -315,6 +317,8 @@ footer .social_network .social_icons{
 @media only screen and (min-width: 768px) and (max-width: 992px){
     .logo_lanurz{
         width: 200px;
+        display: flex;
+        justify-content: center;
     }
 
     .header ul{
@@ -366,6 +370,8 @@ footer .social_network .social_icons{
 @media only screen and (min-width: 992px) and (max-width: 1400px){
     .logo_lanurz{
         width: 200px;
+        display: flex;
+        justify-content: center;
     }
 
     .header ul{
