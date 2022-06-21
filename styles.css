@@ -75,7 +75,7 @@ h1{
 }
 
 .all_bar{
-    width: 80%;
+    width: 100%;
     background-color: transparent;
     margin-top: 30px auto 100px;
 }
@@ -363,7 +363,7 @@ footer .social_network .social_icons{
     }
 }
 
-@media only screen and (min-width: 992px) and (max-width: 1200px){
+@media only screen and (min-width: 992px) and (max-width: 1400px){
     .logo_lanurz{
         width: 200px;
     }
