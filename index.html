@@ -6,26 +6,12 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="./css/styles.css">
         <title>Lanurz</title>
     </head>
     <body>
       <section class="main-nav">
         <header class="header">
-            <!--
-            <a href="#" class="image_logo navbar-brand">
-                <img class="logo_lanurz" src="images/lanurz_logo.png" alt="logo">
-            </a>
-            <nav class="navbar">
-                <ul>
-                    <li>Acerca de nosotros</li>
-                    <li>Contacto</li>
-                </ul>
-                <form class="home_search">
-                    <input class="search_engine" type="text" placeholder="Busca tu producto">
-                    <button class="search_button">&#10149;</button>
-                </form>
-            </nav>-->
             <nav class="navbar navbar-expand-xxl">
               <div class="container-fluid all_bar">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,29 +21,33 @@
                   <a class="navbar-brand" href="#"><img class="logo_lanurz" src="images/lanurz_logo.png" alt="logo"></a>
                   <ul class="navbar-nav me-auto mb-2 mb-lg-0 main mx-auto">
                     <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="#">Lista de productos</a>
+                      <a class="nav-link active" aria-current="page" href="./catalogo.html">Lista de productos</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Servicios</a>
+                      <a class="nav-link" href="./servicios.html">Servicios</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Galería de fotos</a>
+                      <a class="nav-link" href="./galeria.html">Galería de fotos</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Agenda tu cita</a>
+                      <a class="nav-link" href="./citas.html">Agenda tu cita</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Mercado Libre</a>
+                      <a class="nav-link" href="./meli.html">MercadoLibre</a>
                     </li>
                   </ul>
-                  <article>
+                  <article class="right_form">
                     <ul>
-                      <li>Acerca de nosotros</li>
-                      <li>Contacto</li>
+                      <li >
+                        <a href="./nosotros.html">Acerca de nosotros</a>
+                      </li>
+                      <li>
+                        <a href="./contacto.html">Contacto</a>
+                      </li>
                     </ul>
                     <form class="d-flex" role="search">
-                      <input class="form-control me-2 search_engine" type="text" placeholder="Busca tu producto">
-                      <button class="btn btn-outline-success search_button">&#10149;</button>
+                      <input class="form-control me-2 search_engine" id="product_name" type="text" placeholder="Busca tu producto">
+                      <button class="btn btn-outline-success search_button" id="search_btn">&#10149;</button>
                     </form>
                   </article>
                 </div>
@@ -65,15 +55,6 @@
             </nav>
         </header>
       </section>
-        <!--<section class="main">
-            <ul>
-                <li>Lista de productos</li>
-                <li>Servicios</li>
-                <li>Galería de fotos</li>
-                <li>Agenda tu cita</li>
-                <li>Mercado Libre</li>
-            </ul>
-        </section>-->
         <section class="banner">
           <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
             <div class="carousel-inner">
@@ -249,17 +230,29 @@
           <img class="logo_lanurz" src="images/lanurz_black.png" alt="lanurz">
           <article>
             <ul>
-              <li>Agenda tu cita</li>
-              <li>Productos</li>
-              <li>Servicios</li>
-              <li>Mercado Libre</li>
+              <li>
+                <a class="unformat_list" href="./citas.html">Agendo tu cita</a>
+              </li>
+              <li>
+                <a class="unformat_list" href="./catalogo.html">Productos</a>
+              </li>
+              <li>
+                <a class="unformat_list" href="./servicios.html">Servicios</a>
+              </li>
+              <li>
+                <a class="unformat_list" href="./meli.html">MercadoLibre</a>
+              </li>
             </ul>
           </article>
           <article>
             <ul>
               <li>Mapa del sitio</li>
-              <li>Contacto</li>
-              <li>Acerca de nosotros</li>
+              <li>
+                <a class="unformat_list" href="./contacto.html">Contacto</a>
+              </li>
+              <li >
+                <a class="unformat_list" href="./nosotros.html">Acerca de nosotros</a>
+              </li>
               <li>Ayuda</li>
             </ul>
           </article>
@@ -274,14 +267,15 @@
               <h5>Boletín</h5>
               <p>Recibe todas las notificaciones en tu correo:</p>
               <form>
-                <input type="email" class="subscribe_form" placeholder="Ingresa tu correo"/>
-                <button type="submit" class="subscribe_btn">
+                <input type="email" id="email_text" class="subscribe_form" placeholder="Ingresa tu correo"/>
+                <button type="submit" id="email_btn" class="subscribe_btn">
                     Enviar
                 </button>
               </form>
             </div>
           </article>
         </footer>
+        <script src="../lanurz/javascript/main.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
     </body>

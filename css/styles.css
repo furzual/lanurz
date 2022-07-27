@@ -1,5 +1,5 @@
 body{
-    background-image: url("images/cherry\ background.png");
+    background-image: url("../images/cherry\ background.png");
     margin:0px;
     font-family: 'Roboto Slab', serif;
 }
@@ -43,6 +43,10 @@ h1{
     width: 300px;
 }
 
+.right_form{
+    margin-right: 30px;
+}
+
 .home_search{
     text-align: right;
 }
@@ -75,7 +79,7 @@ h1{
 }
 
 .all_bar{
-    width: 100%;
+    width: 80%;
     background-color: transparent;
     margin-top: 30px auto 100px;
 }
@@ -90,8 +94,9 @@ h1{
     margin-top: 40px;
 }
 
-section li{
+section li a{
     color: black;
+    text-decoration:none;
 }
 
 .disclaimer{
@@ -185,6 +190,11 @@ footer .social_network .social_icons{
     display: grid;
     grid-template: repeat(1, 1fr) / repeat(3, 1fr);
     padding: 5% 15%;
+}
+
+.unformat_list{
+    color: black;
+    text-decoration:none;
 }
 
 .subscribe_form{
