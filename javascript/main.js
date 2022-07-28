@@ -1,9 +1,12 @@
+const emails = [];
+
 function search_product(n) {
     console.log(n);
 }
 
 function suscribe(n) {
-    console.log(n);
+    emails.push({"id":emails.length + 1, "email": n});
+    console.log(emails);
 }
 
 document.getElementById("search_btn").onclick = function () {
@@ -33,3 +36,4 @@ document.getElementById("email_btn").onclick = function () {
         alert("Favor de ingresar un correo válido");
     };
   };
+
